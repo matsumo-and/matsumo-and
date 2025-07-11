@@ -3,6 +3,8 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=matsumo-and&label=Profile%20views&color=0e75b6&style=flat" alt="matsumo-and" /> </p>
 
+[![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=matsumo-and&bg_color=535158&color=ffffff&line=878787&point=a8c5ff&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=matsumo-and&column=9" alt="matsumo-and" /></a> </p>
 
 <h3 align="left">Connect with me:</h3>
