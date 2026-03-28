@@ -13,11 +13,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Pick random text
+        id: random
+        run: |
+          texts=(
+            "Welcome!"
+            "Hello World!"
+            "Hi There!"
+            "Keep Coding!"
+            "Let's Go!"
+          )
+          index=$((RANDOM % ${#texts[@]}))
+          selected=${texts[$index]}
+          echo "text=$selected" >> $GITHUB_OUTPUT
+
       - name: Generate Marquee
         uses: matsumo-and/contribution-led-marquee@v1.0.1
         with:
           github_user_name: ${{ github.repository_owner }}
-          text: 'Welcome!'
+          text: ${{ steps.random.outputs.text }}
           show_contributions: true
           cell_size: '10'
           cell_gap: '2'
