@@ -34,7 +34,7 @@ jobs:
           echo "path=assets/marquee_$date.svg" >> $GITHUB_OUTPUT
 
       - name: Generate Marquee
-        uses: matsumo-and/contribution-led-marquee@v1
+        uses: matsumo-and/contribution-led-marquee@v1.0.2
         with:
           github_user_name: ${{ github.repository_owner }}
           text: ${{ steps.random.outputs.text }}
