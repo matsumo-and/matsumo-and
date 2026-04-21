@@ -27,12 +27,6 @@ jobs:
           selected=${texts[$index]}
           echo "text=$selected" >> $GITHUB_OUTPUT
 
-      - name: Set filepath
-        id: date
-        run: |
-          date=$(date +"%Y%m%d%H%M%S")
-          echo "path=assets/marquee_$date.svg" >> $GITHUB_OUTPUT
-
       - name: Generate Marquee
         uses: matsumo-and/contribution-led-marquee@v1
         with:
@@ -43,16 +37,12 @@ jobs:
           cell_gap: '2'
           scroll_speed: '8'
           initial_delay: '3'
-          output_path: ${{ steps.date.outputs.path }}
-
-      - name: Update README
-        run: |
-          sed -i "s|assets/marquee[^)]*\.svg|${{ steps.date.outputs.path }}|g" README.md
+          output_path: assets/marquee.svg
 
       - name: Commit and push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add ${{ steps.date.outputs.path }} README.md
+          git add assets/marquee.svg
           git diff --quiet && git diff --staged --quiet || git commit -m "Update marquee"
           git push
