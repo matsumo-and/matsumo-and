@@ -10,7 +10,7 @@ _generated with [matsumo-and/contribution-led-marquee](https://github.com/market
 <h3 align="left">Tech Stack:</h3>
 
 #### ☁️ Infrastructure & DevOps
-<table><tr>
+<table border="0"><tr>
 <td align="center"><a href="https://kubernetes.io" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/></a></td>
 <td align="center"><a href="https://aws.amazon.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/></a></td>
 <td align="center"><a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/></a></td>
@@ -20,7 +20,7 @@ _generated with [matsumo-and/contribution-led-marquee](https://github.com/market
 </tr></table>
 
 #### ⚙️ Backend
-<table><tr>
+<table border="0"><tr>
 <td align="center"><a href="https://www.java.com" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a></td>
 <td align="center"><a href="https://spring.io/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/></a></td>
 <td align="center"><a href="https://go.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/></a></td>
@@ -29,7 +29,7 @@ _generated with [matsumo-and/contribution-led-marquee](https://github.com/market
 </tr></table>
 
 #### 🎨 Frontend
-<table><tr>
+<table border="0"><tr>
 <td align="center"><a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/></a></td>
 <td align="center"><a href="https://nextjs.org/" target="_blank" rel="noreferrer"><img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/></a></td>
 <td align="center"><a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a></td>
@@ -39,7 +39,7 @@ _generated with [matsumo-and/contribution-led-marquee](https://github.com/market
 </tr></table>
 
 #### 💾 Database & Messaging
-<table><tr>
+<table border="0"><tr>
 <td align="center"><a href="https://www.postgresql.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/></a></td>
 <td align="center"><a href="https://redis.io" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/></a></td>
 <td align="center"><a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/></a></td>
